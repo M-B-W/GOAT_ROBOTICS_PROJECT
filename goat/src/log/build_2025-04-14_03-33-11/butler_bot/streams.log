@@ -1,0 +1,24 @@
+[1.386s] Invoking command in '/home/vishal/goat/src/butler_bot': PYTHONPATH=/home/vishal/goat/src/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishal/goat/src/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/butler_bot build --build-base /home/vishal/goat/src/build/butler_bot/build install --record /home/vishal/goat/src/build/butler_bot/install.log --single-version-externally-managed install_data
+[1.554s] running egg_info
+[1.555s] writing ../build/butler_bot/butler_bot.egg-info/PKG-INFO
+[1.579s] writing dependency_links to ../build/butler_bot/butler_bot.egg-info/dependency_links.txt
+[1.579s] writing entry points to ../build/butler_bot/butler_bot.egg-info/entry_points.txt
+[1.579s] writing requirements to ../build/butler_bot/butler_bot.egg-info/requires.txt
+[1.579s] writing top-level names to ../build/butler_bot/butler_bot.egg-info/top_level.txt
+[1.581s] reading manifest file '../build/butler_bot/butler_bot.egg-info/SOURCES.txt'
+[1.582s] writing manifest file '../build/butler_bot/butler_bot.egg-info/SOURCES.txt'
+[1.582s] running build
+[1.582s] running build_py
+[1.582s] copying butler_bot/butler_task1_node.py -> /home/vishal/goat/src/build/butler_bot/build/lib/butler_bot
+[1.582s] running install
+[1.582s] running install_lib
+[1.583s] copying /home/vishal/goat/src/build/butler_bot/build/lib/butler_bot/butler_task1_node.py -> /home/vishal/goat/src/install/butler_bot/lib/python3.10/site-packages/butler_bot
+[1.584s] byte-compiling /home/vishal/goat/src/install/butler_bot/lib/python3.10/site-packages/butler_bot/butler_task1_node.py to butler_task1_node.cpython-310.pyc
+[1.584s] running install_data
+[1.585s] running install_egg_info
+[1.586s] removing '/home/vishal/goat/src/install/butler_bot/lib/python3.10/site-packages/butler_bot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.586s] Copying ../build/butler_bot/butler_bot.egg-info to /home/vishal/goat/src/install/butler_bot/lib/python3.10/site-packages/butler_bot-0.0.0-py3.10.egg-info
+[1.587s] running install_scripts
+[1.601s] Installing butler_task1_node script to /home/vishal/goat/src/install/butler_bot/lib/butler_bot
+[1.671s] writing list of installed files to '/home/vishal/goat/src/build/butler_bot/install.log'
+[1.976s] Invoked command in '/home/vishal/goat/src/butler_bot' returned '0': PYTHONPATH=/home/vishal/goat/src/build/butler_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishal/goat/src/install/butler_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/butler_bot build --build-base /home/vishal/goat/src/build/butler_bot/build install --record /home/vishal/goat/src/build/butler_bot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,87 @@
+[0.513s] Invoking command in '/home/vishal/goat/src/turtlebot3/turtlebot3_example': CMAKE_PREFIX_PATH=/home/vishal/goat/src/install/turtlebot3_msgs:/home/vishal/goat/src/install/turtlebot3:/home/vishal/goat/src/install/turtlebot3_simulations:/home/vishal/goat/src/install/turtlebot3_bringup:/home/vishal/goat/src/install/turtlebot3_node:/home/vishal/goat/src/install/turtlebot3_navigation2:/home/vishal/goat/src/install/turtlebot3_fake_node:/home/vishal/goat/src/install/turtlebot3_gazebo:/home/vishal/goat/src/install/turtlebot3_description:/home/vishal/goat/src/install/turtlebot3_cartographer:/home/vishal/goat/install/turtlebot3:/home/vishal/goat/install/turtlebot3_simulations:/home/vishal/goat/install/turtlebot3_bringup:/home/vishal/goat/install/turtlebot3_node:/home/vishal/goat/install/turtlebot3_navigation2:/home/vishal/goat/install/turtlebot3_fake_node:/home/vishal/goat/install/turtlebot3_msgs:/home/vishal/goat/install/turtlebot3_gazebo:/home/vishal/goat/install/turtlebot3_description:/home/vishal/goat/install/turtlebot3_cartographer PYTHONPATH=/home/vishal/goat/src/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_example build --build-base /home/vishal/goat/src/build/turtlebot3_example/build install --record /home/vishal/goat/src/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[0.702s] running egg_info
+[0.702s] creating ../../build/turtlebot3_example/turtlebot3_example.egg-info
+[0.702s] writing ../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[0.703s] writing dependency_links to ../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[0.703s] writing entry points to ../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[0.703s] writing requirements to ../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[0.703s] writing top-level names to ../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[0.703s] writing manifest file '../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.706s] reading manifest file '../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.706s] writing manifest file '../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.707s] running build
+[0.707s] running build_py
+[0.707s] creating /home/vishal/goat/src/build/turtlebot3_example/build
+[0.707s] creating /home/vishal/goat/src/build/turtlebot3_example/build/lib
+[0.707s] creating /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.707s] copying turtlebot3_example/__init__.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.707s] creating /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.707s] copying turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.707s] copying turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.707s] copying turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.707s] creating /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.707s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.707s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.707s] copying turtlebot3_example/turtlebot3_position_control/main.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.708s] copying turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.708s] creating /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.708s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.708s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.708s] copying turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.708s] copying turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.708s] creating /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.708s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.708s] copying turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.708s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.709s] running install
+[0.709s] running install_lib
+[0.710s] creating /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[0.710s] creating /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.710s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.710s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.710s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.710s] creating /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.710s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.710s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.710s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/main.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.710s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.710s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[0.711s] creating /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.711s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.711s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.711s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.711s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.711s] creating /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.711s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.711s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.711s] copying /home/vishal/goat/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.712s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/main.py to main.cpython-310.pyc
+[0.712s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-310.pyc
+[0.712s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_client/__init__.py to __init__.cpython-310.pyc
+[0.712s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py to turtlebot3_path.cpython-310.pyc
+[0.713s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py to turtlebot3_position_control.cpython-310.pyc
+[0.713s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/main.py to main.cpython-310.pyc
+[0.714s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_position_control/__init__.py to __init__.cpython-310.pyc
+[0.714s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/__init__.py to __init__.cpython-310.pyc
+[0.714s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-310.pyc
+[0.714s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py to turtlebot3_path.cpython-310.pyc
+[0.715s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/main.py to main.cpython-310.pyc
+[0.715s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol_server/__init__.py to __init__.cpython-310.pyc
+[0.715s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-310.pyc
+[0.715s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/main.py to main.cpython-310.pyc
+[0.715s] byte-compiling /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-310.pyc
+[0.715s] running install_data
+[0.716s] creating /home/vishal/goat/src/install/turtlebot3_example/share/ament_index
+[0.716s] creating /home/vishal/goat/src/install/turtlebot3_example/share/ament_index/resource_index
+[0.716s] creating /home/vishal/goat/src/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.716s] copying resource/turtlebot3_example -> /home/vishal/goat/src/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.716s] copying package.xml -> /home/vishal/goat/src/install/turtlebot3_example/share/turtlebot3_example
+[0.716s] running install_egg_info
+[0.718s] Copying ../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.1.5-py3.10.egg-info
+[0.718s] running install_scripts
+[0.735s] Installing turtlebot3_obstacle_detection script to /home/vishal/goat/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.735s] Installing turtlebot3_patrol_client script to /home/vishal/goat/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.735s] Installing turtlebot3_patrol_server script to /home/vishal/goat/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.735s] Installing turtlebot3_position_control script to /home/vishal/goat/src/install/turtlebot3_example/lib/turtlebot3_example
+[0.736s] writing list of installed files to '/home/vishal/goat/src/build/turtlebot3_example/install.log'
+[0.765s] Invoked command in '/home/vishal/goat/src/turtlebot3/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/vishal/goat/src/install/turtlebot3_msgs:/home/vishal/goat/src/install/turtlebot3:/home/vishal/goat/src/install/turtlebot3_simulations:/home/vishal/goat/src/install/turtlebot3_bringup:/home/vishal/goat/src/install/turtlebot3_node:/home/vishal/goat/src/install/turtlebot3_navigation2:/home/vishal/goat/src/install/turtlebot3_fake_node:/home/vishal/goat/src/install/turtlebot3_gazebo:/home/vishal/goat/src/install/turtlebot3_description:/home/vishal/goat/src/install/turtlebot3_cartographer:/home/vishal/goat/install/turtlebot3:/home/vishal/goat/install/turtlebot3_simulations:/home/vishal/goat/install/turtlebot3_bringup:/home/vishal/goat/install/turtlebot3_node:/home/vishal/goat/install/turtlebot3_navigation2:/home/vishal/goat/install/turtlebot3_fake_node:/home/vishal/goat/install/turtlebot3_msgs:/home/vishal/goat/install/turtlebot3_gazebo:/home/vishal/goat/install/turtlebot3_description:/home/vishal/goat/install/turtlebot3_cartographer PYTHONPATH=/home/vishal/goat/src/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishal/goat/src/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_example build --build-base /home/vishal/goat/src/build/turtlebot3_example/build install --record /home/vishal/goat/src/build/turtlebot3_example/install.log --single-version-externally-managed install_data

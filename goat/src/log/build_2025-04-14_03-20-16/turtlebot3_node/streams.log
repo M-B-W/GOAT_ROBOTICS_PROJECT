@@ -1,0 +1,86 @@
+[0.015s] Invoking command in '/home/vishal/goat/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/vishal/goat/src/install/turtlebot3_msgs:/home/vishal/goat/src/install/turtlebot3:/home/vishal/goat/src/install/turtlebot3_simulations:/home/vishal/goat/src/install/turtlebot3_bringup:/home/vishal/goat/src/install/turtlebot3_node:/home/vishal/goat/src/install/turtlebot3_navigation2:/home/vishal/goat/src/install/turtlebot3_fake_node:/home/vishal/goat/src/install/turtlebot3_gazebo:/home/vishal/goat/src/install/turtlebot3_description:/home/vishal/goat/src/install/turtlebot3_cartographer:/home/vishal/goat/install/turtlebot3:/home/vishal/goat/install/turtlebot3_simulations:/home/vishal/goat/install/turtlebot3_bringup:/home/vishal/goat/install/turtlebot3_node:/home/vishal/goat/install/turtlebot3_navigation2:/home/vishal/goat/install/turtlebot3_fake_node:/home/vishal/goat/install/turtlebot3_msgs:/home/vishal/goat/install/turtlebot3_gazebo:/home/vishal/goat/install/turtlebot3_description:/home/vishal/goat/install/turtlebot3_cartographer:/home/vishal/goat/src/install/turtlebot3_teleop:/home/vishal/goat/src/install/turtlebot3_example:/home/vishal/goat/src/install/butler_bot:/home/vishal/goat/install/turtlebot3_teleop:/home/vishal/goat/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/vishal/goat/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/vishal/goat/src/install/turtlebot3_node
+[0.238s] -- The C compiler identification is GNU 11.4.0
+[0.238s] -- The CXX compiler identification is GNU 11.4.0
+[0.238s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.238s] -- Detecting C compile features
+[0.238s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.273s] -- Detecting CXX compile features
+[0.273s] -- Detecting CXX compile features - done
+[0.277s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.412s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.517s] -- Found dynamixel_sdk: 3.8.2 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[0.523s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.574s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.581s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.591s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.622s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.657s] -- Found message_filters: 4.3.6 (/opt/ros/humble/share/message_filters/cmake)
+[0.708s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.713s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.812s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.841s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.886s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.898s] -- Looking for pthread.h
+[0.965s] -- Looking for pthread.h - found
+[0.965s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.030s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.031s] -- Found Threads: TRUE  
+[1.068s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.083s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.097s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.107s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.120s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.199s] -- Found turtlebot3_msgs: 2.2.3 (/home/vishal/goat/src/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.278s] -- Configuring done
+[1.294s] -- Generating done
+[1.299s] -- Build files have been written to: /home/vishal/goat/src/build/turtlebot3_node
+[1.310s] Invoked command in '/home/vishal/goat/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/vishal/goat/src/install/turtlebot3_msgs:/home/vishal/goat/src/install/turtlebot3:/home/vishal/goat/src/install/turtlebot3_simulations:/home/vishal/goat/src/install/turtlebot3_bringup:/home/vishal/goat/src/install/turtlebot3_node:/home/vishal/goat/src/install/turtlebot3_navigation2:/home/vishal/goat/src/install/turtlebot3_fake_node:/home/vishal/goat/src/install/turtlebot3_gazebo:/home/vishal/goat/src/install/turtlebot3_description:/home/vishal/goat/src/install/turtlebot3_cartographer:/home/vishal/goat/install/turtlebot3:/home/vishal/goat/install/turtlebot3_simulations:/home/vishal/goat/install/turtlebot3_bringup:/home/vishal/goat/install/turtlebot3_node:/home/vishal/goat/install/turtlebot3_navigation2:/home/vishal/goat/install/turtlebot3_fake_node:/home/vishal/goat/install/turtlebot3_msgs:/home/vishal/goat/install/turtlebot3_gazebo:/home/vishal/goat/install/turtlebot3_description:/home/vishal/goat/install/turtlebot3_cartographer:/home/vishal/goat/src/install/turtlebot3_teleop:/home/vishal/goat/src/install/turtlebot3_example:/home/vishal/goat/src/install/butler_bot:/home/vishal/goat/install/turtlebot3_teleop:/home/vishal/goat/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/vishal/goat/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/vishal/goat/src/install/turtlebot3_node
+[1.311s] Invoking command in '/home/vishal/goat/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/vishal/goat/src/install/turtlebot3_msgs:/home/vishal/goat/src/install/turtlebot3:/home/vishal/goat/src/install/turtlebot3_simulations:/home/vishal/goat/src/install/turtlebot3_bringup:/home/vishal/goat/src/install/turtlebot3_node:/home/vishal/goat/src/install/turtlebot3_navigation2:/home/vishal/goat/src/install/turtlebot3_fake_node:/home/vishal/goat/src/install/turtlebot3_gazebo:/home/vishal/goat/src/install/turtlebot3_description:/home/vishal/goat/src/install/turtlebot3_cartographer:/home/vishal/goat/install/turtlebot3:/home/vishal/goat/install/turtlebot3_simulations:/home/vishal/goat/install/turtlebot3_bringup:/home/vishal/goat/install/turtlebot3_node:/home/vishal/goat/install/turtlebot3_navigation2:/home/vishal/goat/install/turtlebot3_fake_node:/home/vishal/goat/install/turtlebot3_msgs:/home/vishal/goat/install/turtlebot3_gazebo:/home/vishal/goat/install/turtlebot3_description:/home/vishal/goat/install/turtlebot3_cartographer:/home/vishal/goat/src/install/turtlebot3_teleop:/home/vishal/goat/src/install/turtlebot3_example:/home/vishal/goat/src/install/butler_bot:/home/vishal/goat/install/turtlebot3_teleop:/home/vishal/goat/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vishal/goat/src/build/turtlebot3_node -- -j16 -l16
+[1.366s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[1.367s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[1.367s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[1.367s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[1.367s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[1.367s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[1.367s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[1.367s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[1.367s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[1.367s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[1.368s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[15.869s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[19.139s] [ 85%] Built target turtlebot3_node_lib
+[19.159s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[21.565s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[22.676s] [100%] Built target turtlebot3_ros
+[22.713s] Invoked command in '/home/vishal/goat/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/vishal/goat/src/install/turtlebot3_msgs:/home/vishal/goat/src/install/turtlebot3:/home/vishal/goat/src/install/turtlebot3_simulations:/home/vishal/goat/src/install/turtlebot3_bringup:/home/vishal/goat/src/install/turtlebot3_node:/home/vishal/goat/src/install/turtlebot3_navigation2:/home/vishal/goat/src/install/turtlebot3_fake_node:/home/vishal/goat/src/install/turtlebot3_gazebo:/home/vishal/goat/src/install/turtlebot3_description:/home/vishal/goat/src/install/turtlebot3_cartographer:/home/vishal/goat/install/turtlebot3:/home/vishal/goat/install/turtlebot3_simulations:/home/vishal/goat/install/turtlebot3_bringup:/home/vishal/goat/install/turtlebot3_node:/home/vishal/goat/install/turtlebot3_navigation2:/home/vishal/goat/install/turtlebot3_fake_node:/home/vishal/goat/install/turtlebot3_msgs:/home/vishal/goat/install/turtlebot3_gazebo:/home/vishal/goat/install/turtlebot3_description:/home/vishal/goat/install/turtlebot3_cartographer:/home/vishal/goat/src/install/turtlebot3_teleop:/home/vishal/goat/src/install/turtlebot3_example:/home/vishal/goat/src/install/butler_bot:/home/vishal/goat/install/turtlebot3_teleop:/home/vishal/goat/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vishal/goat/src/build/turtlebot3_node -- -j16 -l16
+[22.715s] Invoking command in '/home/vishal/goat/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/vishal/goat/src/install/turtlebot3_msgs:/home/vishal/goat/src/install/turtlebot3:/home/vishal/goat/src/install/turtlebot3_simulations:/home/vishal/goat/src/install/turtlebot3_bringup:/home/vishal/goat/src/install/turtlebot3_node:/home/vishal/goat/src/install/turtlebot3_navigation2:/home/vishal/goat/src/install/turtlebot3_fake_node:/home/vishal/goat/src/install/turtlebot3_gazebo:/home/vishal/goat/src/install/turtlebot3_description:/home/vishal/goat/src/install/turtlebot3_cartographer:/home/vishal/goat/install/turtlebot3:/home/vishal/goat/install/turtlebot3_simulations:/home/vishal/goat/install/turtlebot3_bringup:/home/vishal/goat/install/turtlebot3_node:/home/vishal/goat/install/turtlebot3_navigation2:/home/vishal/goat/install/turtlebot3_fake_node:/home/vishal/goat/install/turtlebot3_msgs:/home/vishal/goat/install/turtlebot3_gazebo:/home/vishal/goat/install/turtlebot3_description:/home/vishal/goat/install/turtlebot3_cartographer:/home/vishal/goat/src/install/turtlebot3_teleop:/home/vishal/goat/src/install/turtlebot3_example:/home/vishal/goat/src/install/butler_bot:/home/vishal/goat/install/turtlebot3_teleop:/home/vishal/goat/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vishal/goat/src/build/turtlebot3_node
+[22.721s] -- Install configuration: ""
+[22.722s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/param
+[22.722s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[22.722s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[22.722s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[22.722s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[22.734s] -- Set runtime path of "/home/vishal/goat/src/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[22.734s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[22.734s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[22.734s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[22.734s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[22.734s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[22.735s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[22.735s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[22.735s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[22.735s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[22.735s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[22.735s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[22.736s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[22.736s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.736s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[22.736s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[22.736s] -- Installing: /home/vishal/goat/src/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[22.739s] Invoked command in '/home/vishal/goat/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/vishal/goat/src/install/turtlebot3_msgs:/home/vishal/goat/src/install/turtlebot3:/home/vishal/goat/src/install/turtlebot3_simulations:/home/vishal/goat/src/install/turtlebot3_bringup:/home/vishal/goat/src/install/turtlebot3_node:/home/vishal/goat/src/install/turtlebot3_navigation2:/home/vishal/goat/src/install/turtlebot3_fake_node:/home/vishal/goat/src/install/turtlebot3_gazebo:/home/vishal/goat/src/install/turtlebot3_description:/home/vishal/goat/src/install/turtlebot3_cartographer:/home/vishal/goat/install/turtlebot3:/home/vishal/goat/install/turtlebot3_simulations:/home/vishal/goat/install/turtlebot3_bringup:/home/vishal/goat/install/turtlebot3_node:/home/vishal/goat/install/turtlebot3_navigation2:/home/vishal/goat/install/turtlebot3_fake_node:/home/vishal/goat/install/turtlebot3_msgs:/home/vishal/goat/install/turtlebot3_gazebo:/home/vishal/goat/install/turtlebot3_description:/home/vishal/goat/install/turtlebot3_cartographer:/home/vishal/goat/src/install/turtlebot3_teleop:/home/vishal/goat/src/install/turtlebot3_example:/home/vishal/goat/src/install/butler_bot:/home/vishal/goat/install/turtlebot3_teleop:/home/vishal/goat/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vishal/goat/src/build/turtlebot3_node

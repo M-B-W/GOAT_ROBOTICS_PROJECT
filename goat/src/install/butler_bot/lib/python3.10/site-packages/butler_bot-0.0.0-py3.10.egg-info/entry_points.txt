@@ -1,0 +1,4 @@
+[console_scripts]
+butler_task1_node = butler_bot.butler_task1_node:main
+butler_task2_node = butler_bot.butler_task2_node:main
+
